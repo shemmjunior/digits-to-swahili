@@ -1,3 +1,7 @@
+#### Build Status
+[![Build Status](https://travis-ci.com/ninjaMetro/digits-to-swahili.svg?branch=main)](https://travis-ci.com/ninjaMetro/digits-to-swahili)
+
+
 # Digits to Swahili
 
 A Node package to convert digits to swahili words
