@@ -6,6 +6,12 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": [
+    "numbers",
+    "swahili",
+    "convert"
+  ],
   "author": "ninjametro",
-  "license": "MIT"
+  "license": "MIT",
+  "homepage": "https://github.com/ninjaMetro/digits-to-swahili"
 }
