@@ -4,7 +4,7 @@
   "description": "This package converts numbers into Kiswahili words",
   "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "keywords": [
     "numbers",
@@ -13,5 +13,9 @@
   ],
   "author": "ninjametro",
   "license": "MIT",
-  "homepage": "https://github.com/ninjaMetro/digits-to-swahili"
+  "homepage": "https://github.com/ninjaMetro/digits-to-swahili",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^8.2.1"
+  }
 }
