@@ -12,11 +12,23 @@ A Node package to convert digits to swahili words
 ` npm i digits-to-swahili`
 
 
+
+
 #### Usage
 
-````js
+```js
 const toswahili = require('digits-to-swahili')
 toswahili(500) // The output is: Mia tano
-`````
+```
+
+#### For Issues
+
+Contact: juniorshemm@gmail.com
+
+Feel free to contribute by creating a PR into the repository at (https://github.com/ninjaMetro/digits-to-swahili)
+
+
+
+
 
 
