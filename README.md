@@ -1,8 +1,7 @@
 
 #### Build Status
-[![Build Status](https://travis-ci.com/ninjaMetro/digits-to-swahili.svg?branch=main)](https://travis-ci.com/ninjaMetro/digits-to-swahili)
+[![Build Status](https://travis-ci.com/ninjaMetro/digits-to-swahili.svg?branch=main)](https://travis-ci.com/ninjaMetro/digits-to-swahili)   ![NPM Stats](https://img.shields.io/npm/dt/digits-to-swahili)
 
-https://img.shields.io/npm/dt/digits-to-swahili
 
 
 
