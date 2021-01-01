@@ -1,6 +1,15 @@
-assert = require('chai').assert;
-var numbers = [1, 2, 3, 4, 5];
+const toswahili = require('./../src/index');
 
-assert.isArray(numbers, 'is array of numbers');
-assert.include(numbers, 2, 'array contains 2');
-assert.lengthOf(numbers, 5, 'array contains 5 numbers');
+/** Test Demo */
+const result1 = toswahili(44);
+const result2 = toswahili(110000);
+
+
+var expect = require('chai').expect
+  , test1 = 'arobaini na nne',
+    test2 = 'laki moja na elfu kumi'
+
+
+expect(test1).to.be.a('string');
+expect(test1).to.equal(result1);
+expect(test2).to.equal(result2);
