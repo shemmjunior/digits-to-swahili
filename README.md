@@ -1,10 +1,9 @@
-# Digits to Swahili
-
-A Node package to convert digits to swahili words
-
 #### Build Status
 [![Build Status](https://travis-ci.com/ninjaMetro/digits-to-swahili.svg?branch=main)](https://travis-ci.com/ninjaMetro/digits-to-swahili)   ![NPM Stats](https://img.shields.io/npm/dt/digits-to-swahili)
 
+# Digits to Swahili
+
+A Node package to convert digits to swahili words
 
 ### Installation
 
