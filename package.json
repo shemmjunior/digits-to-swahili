@@ -2,10 +2,15 @@
   "name": "digits-to-swahili",
   "version": "1.0.7",
   "description": "This package converts numbers into Kiswahili words",
-  "main": "src/index.js",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "build": "tsc"
   },
+  "files": [
+    "lib"
+  ],
   "keywords": [
     "digits",
     "numbers",
