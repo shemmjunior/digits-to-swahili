@@ -1,5 +1,5 @@
 #### Build Status
-[![Build Status](https://travis-ci.com/ninjaMetro/digits-to-swahili.svg?branch=main)](https://travis-ci.com/ninjaMetro/digits-to-swahili)   ![NPM Stats](https://img.shields.io/npm/dt/digits-to-swahili)
+[![Build Status](https://travis-ci.com/shemmjunior/digits-to-swahili.svg?branch=main)](https://travis-ci.com/shemmjunior/digits-to-swahili)   ![NPM Stats](https://img.shields.io/npm/dt/digits-to-swahili)
 
 # Digits to Swahili
 
@@ -43,7 +43,7 @@ Also Feel free to contribute by creating a PR into the repository
 #### Licence
 The MIT License (MIT)
 
-Copyright (c) 2021 - ninjaMetro
+Copyright (c) 2021 - Shemm Junior
 
 
 
