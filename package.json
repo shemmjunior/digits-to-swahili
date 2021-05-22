@@ -1,6 +1,6 @@
 {
   "name": "digits-to-swahili",
-  "version": "1.0.7",
+  "version": "1.1.0",
   "description": "This package converts numbers into Kiswahili words",
   "main": "src/index.js",
   "scripts": {
@@ -12,9 +12,9 @@
     "swahili",
     "convert"
   ],
-  "author": "ninjametro",
+  "author": "shemmjunior",
   "license": "MIT",
-  "homepage": "https://github.com/ninjaMetro/digits-to-swahili",
+  "homepage": "https://github.com/shemmjunior/digits-to-swahili",
   "devDependencies": {
     "chai": "^4.2.0",
     "mocha": "^8.2.1"

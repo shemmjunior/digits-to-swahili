@@ -1,4 +1,4 @@
-   function toswahili(n) {
+   function toSwahili(n) {
     
         var numerals = [
           { value: 1000000000000000000000, str: "sextillion" },
@@ -40,7 +40,7 @@
         ];
     
         if (n < 0) {
-          return "hasi " + toswahili(-n);
+          return "hasi " + toSwahili(-n);
         } else if (n === 0) {
           return "sifuri";
         } else {
@@ -53,7 +53,7 @@
                 if (n > 0) result += " na ";
               } else {
                 let times = Math.floor(n / numeral.value);
-                result += numeral.str + " " + toswahili(times);
+                result += numeral.str + " " + toSwahili(times);
                 n -= numeral.value * times;
                 if (n > 0) result += " na ";
               }
@@ -63,4 +63,4 @@
         }
 }
 
-module.exports = toswahili;
+module.exports = toSwahili;

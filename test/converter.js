@@ -1,8 +1,8 @@
-const toswahili = require('./../src/index');
+const toSwahili = require('./../src/index');
 
 /** Test Parameters */
-const result1 = toswahili(44); 
-const result2 = toswahili(110000);
+const result1 = toSwahili(44); 
+const result2 = toSwahili(110000);
 
 /** Expected Output */
 var expect = require('chai').expect

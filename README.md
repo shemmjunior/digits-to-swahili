@@ -3,7 +3,7 @@
 
 # Digits to Swahili
 
-A Node package to convert digits to swahili words
+A Node package to convert digits to swahili words based on Standard commonjs
 
 ### Installation
 
@@ -12,8 +12,8 @@ A Node package to convert digits to swahili words
 #### Usage
 
 ```js
-const toswahili = require('digits-to-swahili')
-toswahili(500) // The output is: Mia tano
+const toSwahili = require('digits-to-swahili')
+toSwahili(500) // The output is: Mia tano
 ```
 
 #### For Usage in React, Angular and Vue use:
@@ -33,17 +33,14 @@ Test is done using mocha.js and here are the steps to run tests
 4. Now run `npm run test`
 
 
+
 #### For Issues
-
-Contact: juniorshemm@gmail.com or raise an issue in the repo
-
 Also Feel free to contribute by creating a PR into the repository
 
 
 #### Licence
 The MIT License (MIT)
 
-Copyright (c) 2021 - Shemm Junior
 
 
 
