@@ -1,30 +1,30 @@
 {
-  "name": "digits-to-swahili",
-  "version": "1.1.1",
-  "description": "This package converts numbers into Kiswahili words",
-  "main": "./lib/cjs/index.js",
-  "module": "./lib/index.js",
-  "scripts": {
-    "tsc": "tsc -p tsconfig.json && tsc -p tsconfig-cjs.json",
-    "prepublish": "npm run tsc",
-    "test": "mocha"
-  },
-  "keywords": [
-    "digits",
-    "numbers",
-    "swahili",
-    "convert"
-  ],
-  "author": "shemmjunior",
-  "license": "MIT",
-  "homepage": "https://github.com/shemmjunior/digits-to-swahili",
-  "devDependencies": {
-    "@types/node": "^17.0.31",
-    "chai": "^4.2.0",
-    "mocha": "^8.2.1",
-    "typescript": "^4.6.4"
-  },
-  "files": [
-    "lib/"
-  ]
+    "name": "digits-to-swahili",
+    "version": "1.1.2",
+    "description": "This package converts numbers into Kiswahili words",
+    "main": "./lib/cjs/index.js",
+    "module": "./lib/index.js",
+    "scripts": {
+        "tsc": "tsc -p tsconfig.json && tsc -p tsconfig-cjs.json",
+        "prepublish": "npm run tsc",
+        "test": "mocha"
+    },
+    "keywords": [
+        "digits",
+        "numbers",
+        "swahili",
+        "convert"
+    ],
+    "author": "shemmjunior",
+    "license": "MIT",
+    "homepage": "https://github.com/shemmjunior/digits-to-swahili",
+    "devDependencies": {
+        "@types/node": "^17.0.31",
+        "chai": "^4.2.0",
+        "mocha": "^8.2.1",
+        "typescript": "^4.6.4"
+    },
+    "files": [
+        "lib/"
+    ]
 }

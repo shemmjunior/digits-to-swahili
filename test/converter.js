@@ -1,12 +1,12 @@
-const { toSwahili } = require('../lib');
+const { toSwahili } = require('../lib/cjs');
 
 /** Test Parameters */
-const result1 = toSwahili(44); 
+const result1 = toSwahili(44);
 const result2 = toSwahili(110000);
 
 /** Expected Output */
-var expect = require('chai').expect
-  , test1 = 'arobaini na nne', // Test1 should be same as result2
+var expect = require('chai').expect,
+    test1 = 'arobaini na nne', // Test1 should be same as result2
     test2 = 'laki moja na elfu kumi' // Test2 should be same as result2
 
 /** Base Test */
