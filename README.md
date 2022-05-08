@@ -12,14 +12,17 @@ A Node package to convert digits to swahili words based on Standard commonjs
 #### Usage
 
 ```js
-const toSwahili = require('digits-to-swahili')
-toSwahili(500) // The output is: Mia tano
+
+const { toSwahili } = require('digits-to-swahili');
+toSwahili(500) // Mia tano
+
 ```
 
-#### For Usage in React, Angular and Vue use:
+```ts
 
-https://www.npmjs.com/package/digits-to-swahili-ts
-
+import { toSwahili } from 'digits-to-swahili';
+toSwahili(200) // Mia mbili
+```
 
 #### Testing
 
@@ -31,7 +34,6 @@ Test is done using mocha.js and here are the steps to run tests
 2. Edit the const's of Test Parameters to your own digits
 3. Edit the Expected output to the same digits in expected swahili language
 4. Now run `npm run test`
-
 
 
 #### For Issues
