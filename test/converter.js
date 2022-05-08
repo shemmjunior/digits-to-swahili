@@ -1,4 +1,4 @@
-const toSwahili = require('./../src/index');
+const { toSwahili } = require('../lib');
 
 /** Test Parameters */
 const result1 = toSwahili(44); 
